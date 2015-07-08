@@ -8,8 +8,8 @@
   @include media($medium) {
     margin-top: 0;
   }
+
   .wrap {
-    text-align: center;
     max-width: em(440);
     padding-right: 20px;
     padding-left: 20px;
@@ -27,7 +27,24 @@
 /*
    Site logo
    ========================================================================== */
-
+.logo{
+  @include span-columns(5);
+  display: inline-block;
+  float: left;
+  @include media($mobile) {
+    @include span-columns(4);
+  }
+  h1{
+    &.site-title{
+      text-align: left;
+    }
+  }
+  h2{
+    &.site-description{
+      text-align: left;
+    }
+  }
+}
 .site-logo {
   img {
     width: 100px;

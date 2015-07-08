@@ -1,20 +1,38 @@
 /* ==========================================================================
    Top navigation
    ========================================================================== */
-
 .navigation-wrapper {
+  
   text-align: center;
+  
+  display: inline-block;
+  float: left;
+  
+  @include span-columns(7);
+  @include media($mobile) {
+    @include span-columns(4);
+    background: $black;
+    color: $white;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    ul{
+      background: $black;
+      margin: 0;
+    }
+    a{
+      color: $white;
+    }
+  }
+  @include omega();
   @include clearfix;
   ul {
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    margin: 0 0 50px;
     padding: 4px 20px;
-    background-color: $black;
     @include media($medium) {
       width: auto;
-      @include rounded(0 0 10px 10px);
     }
     @include clearfix;
   }
@@ -25,7 +43,6 @@
     text-align: center;
     @include font-size(24,no);
     text-transform: uppercase;
-    color: $white;
     @include media($medium) {
       @include font-size(14,no);
     }
@@ -41,7 +58,6 @@
       margin-bottom: 0;
       padding: 6px 10px;
     }
-    color: $white;
     @include rounded(4px);
     &:hover {
       background-color: lighten($black, 10);
