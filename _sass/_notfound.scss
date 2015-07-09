@@ -1,0 +1,235 @@
+/* ==========================================================================
+   404 - Not Found
+   ========================================================================== */
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* Not Found */
+@-moz-keyframes move-in {
+  0% {
+    -moz-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes move-in {
+  0% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@keyframes move-in {
+  0% {
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#not-found{
+	display: table;
+ 	margin: 0;
+  	padding: 0;
+  	width: 100%;
+ 	height: 100%;
+	body{
+		display: table;
+ 		margin: 0;
+  		padding: 0;
+  		width: 100%;
+ 		height: 100%;
+		background-color: #1d2b2a;
+		background-image: url(http://allison.house/assets/img/404-stripe.png), url(http://allison.house/assets/img/404-noise.png);
+		background-repeat: repeat-x, repeat;
+		background-position: 0 0%;
+		background-attachment: fixed;
+		font-size: 21px;
+		font-family: Inconsolata, "Lucida Console", Monaco, Courier, monospace;
+		font-smooth: never;
+		line-height: 2em;
+		color: #d4f8e3;
+		-webkit-font-smoothing: none;
+		text-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+		-moz-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+		-webkit-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+		animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
+		.page-content{
+			display: table-cell;
+			vertical-align: bottom;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		#story{
+			padding: 10px;
+			max-width: 100%;
+			display: block;
+			white-space: pre;
+			line-height: 1.25em;
+			&:after{
+				visibility: visible;
+				content: '';
+				background-color: #d4f8e3;
+				display: inline-block;
+				position: relative;
+				width: 0.5em;
+				height: 1em;
+				top: 5px;
+				margin-left: 0;
+				-moz-box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+				-webkit-box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+				box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+				-moz-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+				-webkit-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+				animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+			}
+		}
+		#kick{
+			text-shadow: none;
+			margin: 10px;
+			color: #000;
+			display: block;
+			width: 90px;
+			height: 200px;
+			a{
+				background-color: #d4f8e3;
+  				color: #1d2b2a;
+			}
+		}
+		#tear{
+			background: url('assets/paper.jpg');
+			position: absolute;
+			top: 20px;
+			left: 120px;
+			width: 400px;
+			height: 400px;
+			border-radius: 30px;
+		}
+		.typed-cursor {
+			display: none;
+		}
+	}
+	
+}
+@-moz-keyframes blink {
+  to {
+    background-color: #223332;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    background-color: #223332;
+  }
+}
+@keyframes blink {
+  to {
+    background-color: #223332;
+  }
+}
+@-moz-keyframes skip {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-webkit-keyframes skip {
+  to {
+    background-position: 0 100%;
+  }
+}
+@keyframes skip {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes flicker {
+  to {
+    color: #bddeca;
+  }
+}
+@-webkit-keyframes flicker {
+  to {
+    color: #bddeca;
+  }
+}
+@keyframes flicker {
+  to {
+    color: #bddeca;
+  }
+}
+@-moz-keyframes ready {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes ready {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes ready {
+  to {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 84, ../../_sass/404.scss */
+  #not-found body {
+    font-size: 18px;
+  }
+}
