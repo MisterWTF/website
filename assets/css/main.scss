@@ -53,3 +53,10 @@ sitemap: false
 
 @import "page"; /* layout and styles that apply to posts and pages */
 @import "archives"; /* archive pages (post/tag lists, etc) */
+
+h1{
+	&.entry-title{
+		text-shadow: 0.07rem 0.07rem 0 #fbfbfb, 0.17rem 0.17rem 0 #d0d0d0;
+
+	}
+}
