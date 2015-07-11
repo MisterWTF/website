@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: $alt-font;
+  font-family: $base-font;
   color: $text-color;
   background-color: $body-color;
   border-top: 5px solid $black;
@@ -91,14 +91,14 @@ a {
 	text-decoration: none;
 	color: $link-color;
 	&:visited {
-		color: lighten($link-color, 20);
+		// color: lighten($link-color, 20);
 	}
 	&:hover {
-		color: lighten($link-color, 20);
+		// color: lighten($link-color, 20);
 	}
 	&:focus {
 		outline: thin dotted;
-		color: darken($link-color, 20);
+		// color: darken($link-color, 20);
 	}
 	&:hover,
 	&:active {

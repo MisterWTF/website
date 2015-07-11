@@ -70,10 +70,5 @@ The subset of human species who are likely to install the Alexa toolbar skews to
 My point here is simple. Ignore a metric that means little to nothing and only inflates or deflates your ego. 
 
 If you still care about improving your Alexa rank, start by tricking your entire demographic into installing the toolbar. 
-{% capture words %}
-  {{ page.content | number_of_words | minus: 250 }}
-{% endcapture %}
-{% unless words contains "-" %}
-  {{ words | divided_by: 180 | append: " minute read" }}
-{% endunless %}
+
 {% include disqus-comments.html %}

@@ -34,6 +34,7 @@
 
 .entry-header {
 	@include fill-parent;
+	text-shadow: 0.07rem 0.07rem 0 #fbfbfb, 0.17rem 0.17rem 0 #d0d0d0
 }
 
 /* tag listing in page header */
@@ -70,7 +71,7 @@ span + .entry-title {
 		@include font-size(52,yes,54);
 	}
 	@include media($large) {
-		@include font-size(68,yes,72);
+		@include font-size(58,yes,60);
 	}
 }
 
@@ -205,6 +206,27 @@ span + .entry-title {
 	.entry-content {
 		@include span-columns(12);
 	}
+}
+#home{
+	.entry-desc{
+		@include media($large){
+			h2{
+				@include span-columns(7);
+				font:{
+					size: 1.8rem;
+					weight: normal;
+				}
+			}
+			img{
+				@include span-columns(4);
+			}
+		}
+	}
+   .entry-content{
+      h2{
+         font-weight: normal;
+      }
+   }
 }
 
 /*

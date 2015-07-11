@@ -1,9 +1,9 @@
 // TYPOGRAPHY ================================================
-$base-font: "ff-tisa-web-pro", serif;
-$heading-font: "skolar", serif;
+$base-font: "skolar", serif;
+$heading-font: "ff-tisa-web-pro", serif;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
-$alt-font: 'volkhov', serif;
+$alt-font: "ff-tisa-web-pro", serif;
 
 $doc-font-size: 16;
 $doc-line-height: 24;
@@ -20,14 +20,14 @@ body {
 
 // COLORS =====================================================
 $body-color         : #fff;
-$text-color         : #222;
-$base-color         : #343434;    
+$text-color         : #000;
+$base-color         : #000;    
 $comp-color         : spin($base-color, 180); 
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
-$accent-color       : $black;
-$link-color         : #222;
+$accent-color       : #da4d4d;
+$link-color         : #000;
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
