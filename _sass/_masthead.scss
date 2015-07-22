@@ -4,6 +4,7 @@
 
 .masthead {
   margin-top: 40px;
+  border-bottom: 1px solid #cccccc;
   @include clearfix;
   @include media($medium) {
     margin-top: 0;

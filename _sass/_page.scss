@@ -83,6 +83,7 @@ span + .entry-title {
 	margin-bottom: 3em;
 	padding-right: $gutter;
 	padding-left: $gutter;
+	// @include font-size(24,yes,24);
 }
 
 /* page/post meta content (date, author, etc) */
