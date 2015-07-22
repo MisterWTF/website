@@ -18,9 +18,8 @@ Six years later, I would hear her tell my brother the same thing. But I was skep
 
 Fast forward to present day. 
 
-World population: ~7.125 billion
-
-U.S. population: ~318.9 million
+- World population: ~7.125 billion
+- U.S. population: ~318.9 million
 
 Do I still think I’m special? Hell yeah. But I don’t think I’m one in a million anymore, because that would mean there are 7,125 out there just like me. 
 
@@ -43,7 +42,7 @@ Unless you’ve spent the past two decades as a castaway on a deserted island an
 
 Alexa, Actionable Analytics for the Web, is a subsidiary of Amazon.com. It provides website rankings based on the information collected by its Alexa toolbar. A higher Alexa ranking simply means that your website has more traffic regardless of site and traffic quality. Alexa doesn’t judge your subject matter, and it doesn’t judge your referral sources (good or bad). 
 
-How the f#@$ do I find my Alexa Ranking? 
+###How the f#@$ do I find my Alexa Ranking? 
 
 This post is actually me telling you not to give a crap about your Alexa ranking, but if you really are hell-bent on finding out about it, punch in your good ‘ol URL here and you’ll be on your way to superficial glory or infamy.
 
