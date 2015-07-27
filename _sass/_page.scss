@@ -170,6 +170,23 @@ span + .entry-title {
 			border-bottom-style: solid;
 		}
 	}
+	.tldr{
+		::selection{
+			background: $accent-color;
+		}
+		margin-left: -1000px;
+		display:block;
+		background: $black;
+		color: $white;
+		padding: 3rem;
+		padding-left: 1000px;
+		.tldr-title{
+			color: $white;
+		}
+		ul{
+			color:$white;
+		}
+	}
 }
 
 /*

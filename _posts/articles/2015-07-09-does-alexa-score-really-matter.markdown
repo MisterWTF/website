@@ -68,6 +68,17 @@ Domain acquisition companies and professionals – who use Alexa rankings among 
 The subset of human species who are likely to install the Alexa toolbar skews towards a certain demographic. If your target audience doesn’t completely overlap with the same demographic, you are more likely to have a lower Alexa ranking. 
 My point here is simple. Ignore a metric that means little to nothing and only inflates or deflates your ego. 
 
+<div class="tldr">
+<div class="tldr-title">TL;DR</div>
+<ul>
+	<li>test 1</li>
+	<li>test 2</li>
+	<li>test 3</li>
+</ul>
+</div>
+
 If you still care about improving your Alexa rank, start by tricking your entire demographic into installing the toolbar. 
+
+
 
 {% include disqus-comments.html %}
