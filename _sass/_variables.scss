@@ -1,7 +1,7 @@
 // TYPOGRAPHY ================================================
-//$base-font: "skolar", serif;
+$base-font: "skolar", serif;
 //$base-font: "proxima-nova", serif;
-$base-font: Helvetica, Arial, sans-serif;
+//$base-font: Helvetica, Arial, sans-serif;
 $heading-font: "ff-tisa-web-pro", serif;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
@@ -28,7 +28,7 @@ $comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
-$accent-color       : #da4d4d;
+$accent-color       : #F2A444;
 $link-color         : #000;
 
 $table-border-color           : $border-color;

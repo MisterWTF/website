@@ -157,15 +157,17 @@ span + .entry-title {
 
 .entry-content {
 	@include span-columns(12);
+	float: none;
+	margin: 0 auto;	
 	p:first-child {
 		margin-top: 0;
 	}
 	@include media($large) {
 		@include span-columns(8, block-collapse);
-
+		float: none;
+		margin: 0 auto;	
 	}
-	float: none;
-	margin: 0 auto;	
+	
 	/* nice link underlines */
   p > a,
 	li > a {
