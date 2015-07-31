@@ -21,7 +21,7 @@ body {
  $mobile: new-breakpoint(max-width 500px 4);
 
 // COLORS =====================================================
-$body-color         : #fff;
+$body-color         : #ececec;
 $text-color         : #000;
 $base-color         : #000;    
 $comp-color         : spin($base-color, 180); 
