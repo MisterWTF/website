@@ -1,11 +1,11 @@
 // TYPOGRAPHY ================================================
-$base-font: "skolar", serif;
+$base-font: "expo-sans-pro", serif;
 //$base-font: "proxima-nova", serif;
 //$base-font: Helvetica, Arial, sans-serif;
-$heading-font: "ff-tisa-web-pro", serif;
+$heading-font: "expo-sans-pro", sans-serif;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
-$alt-font: "ff-tisa-web-pro", serif;
+$alt-font: "expo-sans-pro", serif;
 
 $doc-font-size: 16;
 $doc-line-height: 24;
@@ -21,7 +21,7 @@ body {
  $mobile: new-breakpoint(max-width 500px 4);
 
 // COLORS =====================================================
-$body-color         : #ececec;
+$body-color         : #ffffff;
 $text-color         : #000;
 $base-color         : #000;    
 $comp-color         : spin($base-color, 180); 

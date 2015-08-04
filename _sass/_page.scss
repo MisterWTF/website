@@ -34,7 +34,9 @@
 
 .entry-header {
 	@include fill-parent;
-	text-shadow: 0.07rem 0.07rem 0 #fbfbfb, 0.17rem 0.17rem 0 #d0d0d0
+	h1{
+		text-shadow: 0.07rem 0.07rem 0 #fbfbfb, 0.17rem 0.17rem 0 #d0d0d0
+	}
 }
 
 /* tag listing in page header */
@@ -233,17 +235,18 @@ span + .entry-title {
 }
 #home{
 	.entry-desc{
-		@include media($large){
-			h2{
+		@include media($large) {
+			.home-welcome{
 				@include span-columns(7);
 				font:{
-					size: 1.8rem;
+					size: 2.4rem;
 					weight: normal;
 				}
 			}
-			img{
+			.home-sahil{
 				@include span-columns(4);
 			}
+			
 		}
 	}
    .entry-content{

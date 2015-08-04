@@ -3,12 +3,10 @@
    ========================================================================== */
 
 .masthead {
-  margin-top: 40px;
-  border-bottom: 1px solid #cccccc;
-  background: $white;
+  margin-top: 10px;
   @include clearfix;
   @include media($medium) {
-    margin-top: 0;
+    // margin-top: 40px;
   }
 
   .wrap {
@@ -48,9 +46,9 @@
   }
 }
 .site-logo {
+  display:block;
   img {
-    // width: 100px;
-    // height: 100px;
+    height: 75px;
     @include animation-duration(1s);
       @include animation-delay(.05s);
       //border: 4px solid $white;

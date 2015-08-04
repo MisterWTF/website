@@ -114,7 +114,10 @@ input[type="submit"] {
 	width : auto;
 	height : auto;
 	cursor : pointer;
-	*overflow : visible; 
+	background: $black;
+	padding: 10px auto;
+	color: $white;
+	*overflow : visible;
 }
 select,
 input[type="file"] {
