@@ -43,11 +43,11 @@ body {
 }
 
 p {
-	@include font-size(18,yes,28);
+	@include font-size(24,yes,36);
 }
 
 li {
-	@include font-size(16,12,24);
+	@include font-size(20,12,24);
 }
 
 /* headings */

@@ -29,12 +29,12 @@ I think I’m special. (And hopefully those close to me do too.) But to the rest
 
 I could, however, rank people in my life pretty well – my family, friends, co-workers, random people I know, and ex-girlfriends. (In case you’re wondering where you stand, that’s my real ranking system.)
 
-If you’re a website owner, you’ve probably heard of Alexa and know your Alexa rank, be it global or within your country. Since you probably don’t own Google, Facebook, Amazon, Baidu, or Walmart, chances are you aren’t too happy with your ranking. 
+If you’re a website owner, you’ve probably heard of [Alexa](http://www.alexa.com/) and know your Alexa rank, be it global or within your country. Since you probably don’t own Google, Facebook, Amazon, Baidu, or Walmart, chances are you aren’t too happy with your ranking. 
 
 
 Many a times I’ve been asked the question: What is wrong with my website? How do I f@$\*ing improve my Alexa ranking? Why does that sh\*ttier looking website have a better Alexa ranking than my ‘not so sh\*tty’ looking website?  I’m paraphrasing, of course. 
 
-It was during a SuccessLab meetup when - Michelle DeSpain, a friend, client, author and a web celebrity (The Late Bloomer Revolution) brought up a concern about her Alexa ranking, which was fairly good by any standards. Unlike you, Michelle’s pretty high up in my personal ranking system, I gave her a tl;dr version of all that I am going to talk about here.
+It was during a SuccessLab meetup when - Michelle DeSpain, a friend, client, author and a web celebrity [The Late Bloomer Revolution](http://www.thelatebloomerrevolition.com) brought up a concern about her Alexa ranking, which was fairly good by any standards. Unlike you, Michelle’s pretty high up in my personal ranking system, I gave her a tl;dr version of all that I am going to talk about here.
 
 ##What the f#@$ is Alexa?
 
@@ -65,19 +65,22 @@ Affiliate Marketers – who feel better associating with websites that get more 
 Domain acquisition companies and professionals – who use Alexa rankings among other things to consider what your domain is worth. But, if you’re not planning on selling your website (or company) then you should not care what they think of your website. 
 
 ##The Verdict
-The subset of human species who are likely to install the Alexa toolbar skews towards a certain demographic. If your target audience doesn’t completely overlap with the same demographic, you are more likely to have a lower Alexa ranking. 
-My point here is simple. Ignore a metric that means little to nothing and only inflates or deflates your ego. 
+The subset of human (hopefully) species who are likely to install the Alexa toolbar skews towards a certain demographic. If your target audience doesn’t completely overlap with the same demographic, you are more likely to have a lower Alexa ranking. 
+
+My point here is simple. 
+
+>*Ignore a metric that means little to nothing, outside of inflating or deflating your ego.*
 
 <div class="tldr">
 <div class="tldr-title">TL;DR</div>
 <ul>
-	<li>test 1</li>
-	<li>test 2</li>
+	<li>Alexa Score and ranking is skewed.</li>
+	<li>Don't use it foryour marketing strategies</li>
 	<li>test 3</li>
 </ul>
 </div>
 
-If you still care about improving your Alexa rank, start by tricking your entire demographic into installing the toolbar. 
+If you still care about improving your Alexa rank, start by tricking your entire demographic into [installing the toolbar](http://www.alexa.com/toolbar). 
 
 
 

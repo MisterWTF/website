@@ -1,5 +1,6 @@
 // TYPOGRAPHY ================================================
-$base-font: "expo-sans-pro", serif;
+$base-font: "freight-big-pro", serif;
+// $base-font: "expo-sans-pro", serif;
 //$base-font: "proxima-nova", serif;
 //$base-font: Helvetica, Arial, sans-serif;
 $heading-font: "expo-sans-pro", sans-serif;
@@ -30,6 +31,7 @@ $white              : #fff;
 $black              : #000;
 $accent-color       : #F2A444;
 $link-color         : #000;
+$link-highlight		: #F3BC15;
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;

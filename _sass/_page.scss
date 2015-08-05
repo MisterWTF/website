@@ -173,9 +173,12 @@ span + .entry-title {
 	/* nice link underlines */
   p > a,
 	li > a {
-		border-bottom: 1px dotted lighten($link-color, 50);
+		border-bottom: 1px solid $link-highlight;
+    	box-shadow: inset 0 -2px 0 $link-highlight;
+   	 	-webkit-transition: box-shadow 0.4s ease-in-out;
+    	transition: box-shadow 0.4s ease-in-out;
 		&:hover {
-			border-bottom-style: solid;
+			box-shadow: inset 0 -100px 0 $link-highlight;
 		}
 	}
 	.tldr{
