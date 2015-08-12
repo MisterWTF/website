@@ -35,7 +35,7 @@
 .entry-header {
 	@include fill-parent;
 	h1{
-		text-shadow: 0.07rem 0.07rem 0 #fbfbfb, 0.17rem 0.17rem 0 #d0d0d0
+		// text-shadow: 0.07rem 0.07rem 0 #fbfbfb, 0.17rem 0.17rem 0 #d0d0d0;
 	}
 }
 
@@ -59,8 +59,7 @@ span + .entry-title {
 }
 
 .entry-title {
-	font-family: $alt-font;
-	font-style: italic;
+	//font-style: italic;
 	@include font-size(36,yes,36);
 	font-weight: 400;
 	line-height: 1;
@@ -75,6 +74,46 @@ span + .entry-title {
 	}
 	@include media($large) {
 		@include font-size(58,58,60);
+	}
+}
+.clear{
+	display:block;
+	clear: both;
+}
+/* Mail Chimp */
+
+#mc_embed_signup{
+	display: block;
+	margin: 20px auto;
+	@include font-size(18, yes, 24);
+	@include span-columns(12);
+	.mc-field-group{
+		
+		vertical-align: top;
+		@include media($medium) {
+			@include span-columns(5);
+			//display: inline-block;
+		}
+		input{
+			border-top: none;
+    		border-right: none;
+    		border-bottom: 1px solid $black;
+    		border-left: none;
+    		background-color: transparent;
+			font-style: italic;
+			letter-spacing: 2px;
+		}
+	}
+	.mc-button{
+		vertical-align: top;
+		@include media($medium) {
+			@include span-columns(2);
+			//display: inline-block;
+			@include omega();
+		}
+		input[type=submit]{
+			width: 100%;
+		}
 	}
 }
 
@@ -234,28 +273,37 @@ span + .entry-title {
 	}
 	.entry-content {
 		@include span-columns(12);
+		float: none;
+		clear:both;
 	}
 }
 #home{
+	.entry-title{
+		//text-transform: uppercase;
+		//@include font-size(32,yes,36);
+	}
 	.entry-desc{
 		@include media($large) {
-			.home-welcome{
-				@include span-columns(7);
-				font:{
-					size: 2.4rem;
-					weight: normal;
-				}
-			}
-			.home-sahil{
-				@include span-columns(4);
-			}
-			
+			@include font-size (48,yes,28);
 		}
 	}
    .entry-content{
       h2{
          font-weight: normal;
       }
+      @include media($medium) {
+			.home-welcome{
+				@include span-columns(9);
+				p{
+					@include font-size(30,yes,40);
+				}
+			}
+			.home-sahil{
+				@include span-columns(3);
+				@include omega();
+			}
+			
+		}
    }
 }
 

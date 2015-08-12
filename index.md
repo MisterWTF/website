@@ -8,11 +8,22 @@ image:
   feature: 'sahil.png'
 ---
 
-##People ask me questions, I answer them and then I write about everything. I do this to save my time and yours. I am just a helpful fucking soul.  
+<div class="home-welcome">
+	<p class="home-text">My name is Sahil. Some days I am a developer, some a web consultant, but most days I am a digital messiah, bearing the weight of saving you from daily digital What The F#@ks. </p>
+</div>
+<div class="home-sahil">
+	<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" style="margin-top:0;">
+</div>
+
+<div class="clear"></div>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur rem, quaerat accusantium doloremque ut, voluptate corporis molestiae similique praesentium sunt animi natus esse unde eius neque obcaecati eaque, voluptates fuga.
+
+<p><a class="btn askwtf" href="/contact">Ask Me</a></p>
 
 {% include mailchimp.html %}
 
-## Latest Posts
+## Latest Articles
 
 <ul class="post-list">
 {% for post in site.posts limit:3 %} 

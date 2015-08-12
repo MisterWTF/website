@@ -1,7 +1,8 @@
 // TYPOGRAPHY ================================================
 $base-font: "freight-big-pro", serif;
 // $base-font: "expo-sans-pro", serif;
-//$base-font: "proxima-nova", serif;
+//$base-font: "expo-sans-pro", serif;
+//$heading-font: Helvetica, Arial, sans-serif;
 //$base-font: Helvetica, Arial, sans-serif;
 $heading-font: "expo-sans-pro", sans-serif;
 $caption-font: $base-font;
@@ -30,6 +31,7 @@ $comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
+$grey				: #ebedf0;
 $accent-color       : #F2A444;
 $link-color         : #000;
 $link-highlight		: #F3BC15;

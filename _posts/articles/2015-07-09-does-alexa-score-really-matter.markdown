@@ -5,7 +5,7 @@ modified:
 categories: articles
 excerpt: #
 tags: []
-comments: true
+comments: false
 image:
   feature:
 date: 2015-07-09T11:27:36-07:00
@@ -29,7 +29,7 @@ I think I’m special. (And hopefully those close to me do too.) But to the rest
 
 I could, however, rank people in my life pretty well – my family, friends, co-workers, random people I know, and ex-girlfriends. (In case you’re wondering where you stand, that’s my real ranking system.)
 
-If you’re a website owner, you’ve probably heard of [Alexa](http://www.alexa.com/) and know your Alexa rank, be it global or within your country. Since you probably don’t own Google, Facebook, Amazon, Baidu, or Walmart, chances are you aren’t too happy with your ranking. 
+If you’re a website owner, you’ve probably heard of [Alexa](http://www.alexa.com/)[^1] and know your Alexa rank, be it global or within your country. Since you probably don’t own Google, Facebook, Amazon, Baidu, or Walmart, chances are you aren’t too happy with your ranking. 
 
 
 Many a times I’ve been asked the question: What is wrong with my website? How do I f@$\*ing improve my Alexa ranking? Why does that sh\*ttier looking website have a better Alexa ranking than my ‘not so sh\*tty’ looking website?  I’m paraphrasing, of course. 
@@ -82,6 +82,10 @@ My point here is simple.
 
 If you still care about improving your Alexa rank, start by tricking your entire demographic into [installing the toolbar](http://www.alexa.com/toolbar). 
 
+#### Links in this post
+
+[^1]: http://www.alexa.com/
 
 
-{% include disqus-comments.html %}
+
+
