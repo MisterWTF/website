@@ -1,11 +1,7 @@
 
 
 {% include browser-upgrade.html %}
-<script>
-$('.toggle').toggles({
-	on: true
-});
-</script>
+
 <header class="masthead">
 	<div class="wrap">
 		<div class="logo">
@@ -16,7 +12,7 @@ $('.toggle').toggles({
 			<!-- <h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2> -->
 		</div>
 		<div class="navigation-wrapper">
-			<div class="toggle toggle-light" data-toggle-on="true" data-toggle-height="20" data-toggle-width="60"></div>
+			<div class="toggle toggle-light">Toggle</div>
 			<nav role="navigation" id="site-nav" class="animated drop">
 			    <ul>
 		      {% for link in site.data.navigation %}

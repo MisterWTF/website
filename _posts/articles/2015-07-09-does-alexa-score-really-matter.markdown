@@ -5,7 +5,7 @@ modified:
 categories: articles
 excerpt: #
 tags: []
-comments: false
+comments: true
 image:
   feature:
 date: 2015-07-09T11:27:36-07:00
@@ -85,7 +85,4 @@ If you still care about improving your Alexa rank, start by tricking your entire
 #### Links in this post
 
 [^1]: http://www.alexa.com/
-
-
-
 

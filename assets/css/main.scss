@@ -40,6 +40,7 @@ sitemap: true
 @import "wells";
 @import "syntax";
 @import "forms";
+@import "toggle";
 @import "notices"; /* notices and alerts */
 @import "animations";
 @import "masthead";
@@ -47,7 +48,8 @@ sitemap: true
 @import "search";
 @import "footer";
 @import "notfound";
-@import "toggle";
+
+
 /*
    Page specific
    ========================================================================== */
